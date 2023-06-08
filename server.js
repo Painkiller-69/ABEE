@@ -30,7 +30,7 @@ const User = mongoose.model('User', userSchema);
 
 // Connect Node application to MongoDB Atlas
 const rollNo = 'U1205'; // Replace with your roll number
-const uri = `mongodb+srv://Sparsh:Sparsh-123@link-shortener.dac5zyq.mongodb.net/?retryWrites=true&w=majority`; // Replace <your-password> with your MongoDB Atlas password
+const uri = `/*your mongodb url*/`; // Replace <your-password> with your MongoDB Atlas password
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
